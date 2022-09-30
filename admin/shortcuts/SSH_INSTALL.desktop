@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=1.0
+Exec=/home/htran/Desktop/Setup/SSH_INSTALL.sh
+Name=SSH_INSTALL
+GenericName=SSH_INSTALL
+Comment=SSH_INSTALL
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Icon=/home/htran/Desktop/admin/src/git.png
+Categories=Application;Network;TEST
+

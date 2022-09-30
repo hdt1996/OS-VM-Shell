@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=1.0
+Exec=/home/htran/Desktop/Git/execs/terminal_Spring.sh
+Name=terminal_Spring
+GenericName=terminal_Spring
+Comment=terminal_Spring
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Icon=/home/htran/Desktop/admin/src/git.png
+Categories=Application;Network;TEST
+

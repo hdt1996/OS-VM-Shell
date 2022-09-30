@@ -1,0 +1,13 @@
+
+[Desktop Entry]
+Version=1.0
+Exec=/home/htran/Desktop/Git/execs/terminal_VMs.sh
+Name=terminal_VMs
+GenericName=terminal_VMs
+Comment=terminal_VMs
+Encoding=UTF-8
+Terminal=true
+Type=Application
+Icon=/home/htran/Desktop/admin/src/git.png
+Categories=Application;Network;TEST
+

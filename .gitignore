@@ -1,9 +1,8 @@
 *.txt
 *.png
 *.ico
-gui/py_django/app_writer/migrations/
-shell/linux64/Setup/PRGM/pypip_pkgs/
-C:\Users\hduon\Documents\/
+migrations/
+pypip_pkgs/
 *.msi
 *.svg
 *.pyc

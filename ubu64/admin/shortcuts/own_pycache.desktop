@@ -1,10 +1,10 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/admin/reboot.sh
-Name=reboot
-GenericName=reboot
-Comment=reboot
+Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/admin/own_pycache.sh
+Name=own_pycache
+GenericName=own_pycache
+Comment=own_pycache
 Encoding=UTF-8
 Terminal=true
 Type=Application

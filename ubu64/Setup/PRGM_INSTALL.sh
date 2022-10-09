@@ -1,10 +1,11 @@
 #!/bin/sh
-cd /home/htran/Desktop
+BASEDIR=$(readlink -f $(dirname "$0"))
+cd $BASEDIR/../
 find . -type f -iname "*.sh" -exec chmod +x {} \;
 
-cd /home/htran/Desktop/Setup
+cd $BASEDIR
 find ./PRGM -type f -iname "*setup.sh" -exec {} \;
-/home/htran/Desktop/Git/execs/run_git_config.sh
+$BASEDIR../../Git/execs/run_git_config.sh
 find ./PRGM -type f -regex '\.\/PRGM\/[a-zA-Z\_]+install[\_a-zA-Z]*\.sh' -exec {} \;
 
 echo

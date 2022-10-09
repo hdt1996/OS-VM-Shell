@@ -1,5 +1,5 @@
 BASEDIR=$(readlink -f $(dirname "$0"))
-
+USER=$(echo "$USER")
 cd ~/Desktop
 
 read -p \
@@ -39,7 +39,7 @@ Type=Application
 Icon="$icon"
 Categories=Application;Network;TEST
 " > ./$custom_name.desktop
-	sudo chown htran:htran ./$custom_name.desktop 
+	sudo chown $USER:$USER ./$custom_name.desktop 
 	sudo chmod ug+x ./$custom_name.desktop 
 	gio set ./$custom_name.desktop metadata::trusted true
 done

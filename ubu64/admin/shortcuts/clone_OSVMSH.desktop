@@ -1,10 +1,10 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Git/execs/terminal_Notes.sh
-Name=terminal_Notes
-GenericName=terminal_Notes
-Comment=terminal_Notes
+Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Git/execs/clone_OSVMSH.sh
+Name=clone_OSVMSH
+GenericName=clone_OSVMSH
+Comment=clone_OSVMSH
 Encoding=UTF-8
 Terminal=true
 Type=Application

@@ -1,4 +1,6 @@
-ssh-add /home/htran/.ssh/keys/dev_htr_09162022_052114
+SSH_NAME="$(git config user.ssh)"
+
+ssh-add ~/.ssh/keys/$SSH_NAME
 
 read x
 

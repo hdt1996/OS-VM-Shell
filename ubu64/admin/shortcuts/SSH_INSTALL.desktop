@@ -1,13 +1,13 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/Setup/SSH_INSTALL.sh
+Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Setup/SSH_INSTALL.sh
 Name=SSH_INSTALL
 GenericName=SSH_INSTALL
 Comment=SSH_INSTALL
 Encoding=UTF-8
 Terminal=true
 Type=Application
-Icon=/home/htran/Desktop/admin/src/git.png
+Icon=/home/htran/Desktop/OS-VM-Shell/ubu64/admin/src/exec_icon.jpg
 Categories=Application;Network;TEST
 

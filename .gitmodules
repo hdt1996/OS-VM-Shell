@@ -1,0 +1,6 @@
+[submodule "Git_Shortcuts"]
+	path = Git_Shortcuts
+	url = git@github.com:hdt1996/Git_Shortcut.git
+[submodule "Git_Shortcut"]
+	path = Git_Shortcut
+	url = git@github.com:hdt1996/Git_Shortcut.git

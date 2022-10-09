@@ -1,3 +1,5 @@
+BASEDIR=$(readlink -f $(dirname "$0"))
+
 cd ~/Desktop
 
 read -p \
@@ -11,11 +13,11 @@ Enter name: " icon
 
 case "$icon" in
 	"git")
-	icon=$(readlink -f ./admin/src/git.png);;
+	icon=$(readlink -f $BASEDIR/src/git.png);;
 	"web")
-	icon=$(readlink -f ./admin/src/web.png);;
+	icon=$(readlink -f $BASEDIR/src/web.png);;
 	"standard")
-	icon=$(readlink -f ./admin/src/exec_icon.jpg);;
+	icon=$(readlink -f $BASEDIR/src/exec_icon.jpg);;
 esac
 
 read -p "Drag/Drop or Write your scripts path here: " inps

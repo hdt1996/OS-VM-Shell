@@ -210,6 +210,7 @@ do
 done
 
 cd "$DEST/$REPO"
+echo "$DEST/$REPO"
 git checkout -b "$BRANCH" > /dev/null 2>&1
 echo
 WHILE_INPUT "autopull submodule retrack cmd repo branch merge rebase stage unstage commit uncommit push backup log reflog quit"

@@ -1,2 +1,3 @@
-/home/htran/Desktop/Git/git_terminal.sh -repo Notes -branch dev
+BASEDIR=$(readlink -f $(dirname "$0"))
+$BASEDIR/../git_terminal.sh -repo Notes -branch dev
 read x

@@ -1,4 +1,4 @@
 BASEDIR=$(readlink -f $(dirname "$0"))
-$BASEDIR/../git_clone.sh -repo hdt1996-portfolio.net
+$BASEDIR/../git_clone.sh -repo Virtual_Machines
 
 read -p "Done" x

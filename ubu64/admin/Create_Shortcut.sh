@@ -39,9 +39,10 @@ Type=Application
 Icon="$icon"
 Categories=Application;Network;TEST
 " > ./$custom_name.desktop
-	sudo chown $USER:$USER ./$custom_name.desktop 
-	sudo chmod ug+x ./$custom_name.desktop 
-	gio set ./$custom_name.desktop metadata::trusted true
+
+sudo chown $USER:$USER ./$custom_name.desktop 
+sudo chmod ug+x ./$custom_name.desktop 
+gio set ./$custom_name.desktop metadata::trusted true
 done
 
 

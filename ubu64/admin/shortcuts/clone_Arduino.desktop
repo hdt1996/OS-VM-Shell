@@ -1,10 +1,10 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/Git_Shortcut/execs/terminal_Utils.sh
-Name=terminal_Utils
-GenericName=terminal_Utils
-Comment=terminal_Utils
+Exec=/home/htran/Desktop/Git_Shortcut/execs/clone_Arduino.sh
+Name=clone_Arduino
+GenericName=clone_Arduino
+Comment=clone_Arduino
 Encoding=UTF-8
 Terminal=true
 Type=Application

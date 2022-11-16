@@ -1,10 +1,10 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/Git_Shortcut/execs/terminal_Utils.sh
-Name=terminal_Utils
-GenericName=terminal_Utils
-Comment=terminal_Utils
+Exec=/home/htran/Desktop/Git_Shortcut/execs/terminal_Git_Shortcut.sh
+Name=terminal_Git_Shortcut
+GenericName=terminal_Git_Shortcut
+Comment=terminal_Git_Shortcut
 Encoding=UTF-8
 Terminal=true
 Type=Application

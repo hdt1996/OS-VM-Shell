@@ -1,7 +1,7 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Git/execs/config_git.sh
+Exec=/home/htran/Desktop/Git_Shortcut/execs/config_git.sh
 Name=config_git
 GenericName=config_git
 Comment=config_git

@@ -1,7 +1,7 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Git/execs/terminal_Enzyme.sh
+Exec=/home/htran/Desktop/Git_Shortcut/execs/terminal_Enzyme.sh
 Name=terminal_Enzyme
 GenericName=terminal_Enzyme
 Comment=terminal_Enzyme

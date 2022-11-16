@@ -1,7 +1,7 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Git/execs/terminal_OSVMSH.sh
+Exec=/home/htran/Desktop/Git_Shortcut/execs/terminal_OSVMSH.sh
 Name=terminal_OSVMSH
 GenericName=terminal_OSVMSH
 Comment=terminal_OSVMSH

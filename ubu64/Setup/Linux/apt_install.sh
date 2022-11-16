@@ -32,6 +32,15 @@ sudo /tmp/aws/install
 sudo curl -L https://raw.githubusercontent.com/docker/compose-cli/main/scripts/install/install_linux.sh | sh #AWS INTEGR WITH DOCKER COMPOSE
 sudo curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/ubuntu_64bit/session-manager-plugin.deb" -o "/tmp/session-manager-plugin.deb"
 sudo apt-get install /tmp/session-manager-plugin.deb
+
+
+
+########################### AWS ELASTIC BEANSTALK ##########################
+
+git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git /home/$USER/Desktop/aws_eb
+export PATH="$PATH:/home/htran/.local/bin"
+python3 /home/$USER/Desktop/aws_eb/scripts/ebcli_installer.py
+echo 'export PATH="/home/htran/.ebcli-virtual-env/executables:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
 #############################################################################################################################
 #-------------------- Using resolvconf for DNS servers (Not going to use anymore) ---------
 #sudo apt-get install resolvconf

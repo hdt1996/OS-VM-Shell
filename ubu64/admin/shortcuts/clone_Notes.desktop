@@ -1,7 +1,7 @@
 
 [Desktop Entry]
 Version=1.0
-Exec=/home/htran/Desktop/OS-VM-Shell/ubu64/Git/execs/clone_Notes.sh
+Exec=/home/htran/Desktop/Git_Shortcut/execs/clone_Notes.sh
 Name=clone_Notes
 GenericName=clone_Notes
 Comment=clone_Notes

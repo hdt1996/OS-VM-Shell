@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 ########################### AWS ELASTIC BEANSTALK ##########################
 
 # AWS CLI
@@ -13,7 +13,11 @@ sudo apt-get install /tmp/session-manager-plugin.deb
 # Make sure to pip3 install virtualenv for python
 
 git clone https://github.com/aws/aws-elastic-beanstalk-cli-setup.git /home/$USER/Desktop/aws_eb
-export PATH="$PATH:/home/htran/.local/bin"
+export PATH="$PATH:/home/$USER/.local/bin"
 python3 /home/$USER/Desktop/aws_eb/scripts/ebcli_installer.py
-echo 'export PATH="/home/htran/.ebcli-virtual-env/executables:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
+echo 'export PATH="/home/$USER/.ebcli-virtual-env/executables:$PATH"' >> ~/.bash_profile && source ~/.bash_profile
+
+# If python is unresolved by eb
+#sudo ln -s python3.10 ./python
+
 
